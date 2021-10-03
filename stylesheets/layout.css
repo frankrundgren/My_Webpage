@@ -1,0 +1,187 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* My styles :)
+================================================== */
+
+
+/* my hart beats for design! :)
+================================================== */
+
+
+
+
+/* General
+================================================== */
+
+* { 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+body {color: #333333;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+}
+
+.first {margin-top: 20px;}
+.short-info {font-style: italic;}
+
+
+div {  
+
+	-o-transition: all 2s;
+	-moz-transition: all 2s;
+    -webkit-transition: all 2s;
+	transition: all 2s;
+}
+
+
+/* Full row - band
+================================================== */
+
+.full-width.top {
+
+	 /* margin-top: -96px;   */
+	
+	/* background-color: #CBCBCB;
+	box-shadow: 0px 0px 20px silver; */
+}
+
+.full-width.header {
+	margin-top: 0px;	
+}
+
+.band1, .band2, .band3, .band4 {
+	float: left;
+	width: 25%;
+	height: 2px;
+}
+
+.band1 {
+	background-color: #2c8bc1; /* blue */
+}
+.band2 {
+	background-color: #cd3a37; /* red */
+}
+.band3 {
+	background-color: #ea980e; /* orange */
+}
+.band4 {
+	background-color: #1ebaa5; /* green */
+}
+
+/* Colums
+================================================== */
+
+.col1, .col2 { border-right: 1px dotted silver}
+
+.col-align {text-align: center;}
+
+/* Layout
+================================================== */
+
+.logo {
+	width: 150px;
+	height: 150px;
+
+}
+
+.logo-text {
+	font-family: 'Libre Baskerville', serif;
+	font-style:italic;
+	font-size: 55px;
+	line-height: 140px;
+}
+
+.left {float: left;}
+.right {float: right;}
+.center {text-align: center;}
+
+.round {border-radius: 50%}
+
+.divider {
+	height: 20px;
+	margin: 20px 0px;
+	background: url(../images/divider.png) 50% 50% no-repeat;
+}
+
+.me-pic {width: 150px;}
+
+/* #Page Styles
+================================================== */
+
+/* Social links */
+
+
+
+.social a {  
+	border-radius: 2px;
+	padding: 2px;
+	-o-transition: all 2s;
+	-moz-transition: all 2s;
+    -webkit-transition: all 2s;
+	transition: all 2s;
+}
+
+.social a:hover {    
+	-o-transition: all .5s;
+	-moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+a.codepen:hover {background-color: #000; color: #fff;}
+a.dribbble:hover {background-color: #C5386E; color: #fff;}
+
+a.flicker:hover {background-color: #0063DC; color: #fff}
+
+
+a.twitter:hover {background-color: #00aced; color: #fff; /* #4099FF */}
+a.facebook:hover {background-color: #3B5998;color: #fff}
+a.instagram:hover {background-color: #A2725B; color: #fff;}
+a.pinterest:hover {background-color: #C8202E; color: #fff;}
+a.google:hover {background-color: #3A3937; color: #fff;}
+
+a.youtube:hover {background-color: #C9312C; color: #fff;}
+a.spotify:hover {background-color: #80B819; color: #fff;}
+
+.end-text {color: silver; text-align: center;margin-bottom: 26px;}
+.end-text img {margin-left: 3px;}
+
+
+.small {display: none;}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.big {display: none;}
+		.small {display: block;}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.big {display: none;}
+		.small {display: block;}
+	}
+
